@@ -9,5 +9,4 @@ def download_playlist(url):
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
 
-playlist_url = 'https://youtube.com/playlist?list=PLPdN9Po1toQyZ-F1A_yHQqA3UHZD9NYOX&si=6Oc24Myd_wPJQmZi'
-download_playlist(playlist_url)
+download_playlist('LINK')
